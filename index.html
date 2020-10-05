@@ -1,26 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
 	<head>
-		<link rel="stylesheet" href="assets/css/index.css" />
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
-		<meta charset="utf-8" />
+		<title>Monetise Financial - Coming Soon</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<meta name="robots" content="Building bridges between proposals and success." />
+		<meta name="google" content="notranslate" />
+		<link rel="shorcut icon" href="assets/img/logomonetise.png" />
+
+		<!-- Core Bootstrap CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- External Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  		<link href="assets/fonts/css/all.min.css" rel="stylesheet" type="text/css">
+	
+		<!-- Page CSS -->
+  		<link href="assets/css/comingsoon.css" rel="stylesheet"/>
 	</head>
-
 	<body>
-		<div id="controls">
-			<img src="assets/img/mute.png" id="audioBtn" height="25" onclick="audioFunction();"/>
 
-			<img src="assets/img/pause.png" id="pauseBtn" height="25" onclick="pauseFunction();" />
+		<video class="embed-responsive" height="360" width="640" autoplay muted>
+			<source src="assets/vid/monetise.mp4" type="video/mp4" />
+		</video>
 
-			<img src="assets/img/loop.png" id="loopBtn" height="25" onclick="loopFunction();" />
+		<div class="masthead">
+			<div class="masthead-bg"></div>
+				<div class="container h-100">
+					<div class="row h-100">
+						<div class="col-12 my-auto text-box">
+							<div class="masthead-content text-white py-5 py-md-0">
+								<img id="logomonetise" src="assets/img/monetise.png" height="200">
+								<h1 id="title">Monetise Financial</h1> 
+								<h2 id="subtitle">Your own bank!</h1>
+								<h3 id="subtitle2">We are coming.</h3>
+							</div>
+						</div>
+					</div>
+				</div>	
 		</div>
+
 		
 
-		<video autoplay muted id="video" class="videosize">
-			<source src="assets/vid/monetise.mp4" type="video/mp4">
-		</video>
+		<!-- Core Bootstrap JS -->
+		<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+	
+		<!-- FluidPlayer JS -->
+		<!-- <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script> -->
+		<!-- <script src="assets/js/fluid.js"></script> -->
+		
+		<!-- Page JS -->
+		<script src="assets/js/comingsoon.js"></script>
 	</body>
-
-	<script src="assets/js/controls.js"></script>
 </html>
