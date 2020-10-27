@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+video {
+    width: 50%;
+    margin-top: 8%;
+    height: auto;
+
+    border: 1px transparent;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #2e58a6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+}
+
+#footer {
+    background-color: #2e58a6c2;
+    padding-left: 90%;
+    padding-bottom: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
